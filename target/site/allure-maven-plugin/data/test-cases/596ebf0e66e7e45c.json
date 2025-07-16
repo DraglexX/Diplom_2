@@ -1,0 +1,153 @@
+{
+  "uid" : "596ebf0e66e7e45c",
+  "name" : "Получить список заказов конкретного пользователя который авторизован",
+  "fullName" : "CreateOrdersTest.getOrderUserAuthorize",
+  "historyId" : "15d169f65c4912c5fee06e909543ff0e",
+  "time" : {
+    "start" : 1749396807615,
+    "stop" : 1749396812349,
+    "duration" : 4734
+  },
+  "description" : "Получаем список заказов конкретного пользователя который авторизован",
+  "descriptionHtml" : "<p>Получаем список заказов конкретного пользователя который авторизован</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Получаем список заказов конкретного пользователя который авторизован",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Добавить пользователя и вернуть accessToken",
+      "time" : {
+        "start" : 1749396807616,
+        "stop" : 1749396807920,
+        "duration" : 304
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "CreateUser@33d6886b"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получить список заказов конкретного пользователя который авторизован",
+      "time" : {
+        "start" : 1749396807920,
+        "stop" : 1749396811584,
+        "duration" : 3664
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Авторизоваться",
+        "time" : {
+          "start" : 1749396807920,
+          "stop" : 1749396808172,
+          "duration" : 252
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "user",
+          "value" : "CreateUser@33d6886b"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Получить первые два ингредиента по _id",
+        "time" : {
+          "start" : 1749396808172,
+          "stop" : 1749396808353,
+          "duration" : 181
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удалить пользователя по accessToken",
+      "time" : {
+        "start" : 1749396811585,
+        "stop" : 1749396812348,
+        "duration" : 763
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDQ3OWVkMjgwMDAxYjYxMmMzMSIsImlhdCI6MTc0OTM5NjgwNywiZXhwIjoxNzQ5Mzk4MDA3fQ.VEOE2i8Pv-6nMWN9dlugG2agQemQYJplW0Og29jVgk8"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateOrdersTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getOrderUserAuthorize"
+  }, {
+    "name" : "suite",
+    "value" : "CreateOrdersTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Olga-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "74608@MacBook-Air-Olga-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "596ebf0e66e7e45c.json",
+  "parameterValues" : [ ]
+}

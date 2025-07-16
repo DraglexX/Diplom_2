@@ -1,0 +1,105 @@
+{
+  "uid" : "70345af78de0f238",
+  "name" : "Создание нового пользователя с валидными данными",
+  "fullName" : "CreateUserTest.createNewUser",
+  "historyId" : "e1eab30f737dcaee198075618a4c5952",
+  "time" : {
+    "start" : 1749396797089,
+    "stop" : 1749396798147,
+    "duration" : 1058
+  },
+  "description" : "Проверка успешного создания пользователя, когда все обязательные поля (email, password, name) заполнены корректно.",
+  "descriptionHtml" : "<p>Проверка успешного создания пользователя, когда все обязательные поля (email, password, name) заполнены корректно.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка успешного создания пользователя, когда все обязательные поля (email, password, name) заполнены корректно.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1749396797089,
+        "stop" : 1749396797355,
+        "duration" : 266
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=1749396797089elisabeth.wuckert@gmail.com, password=oiDFQQgDmFYdT&W1749396797089, name=Elba1749396797089)"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1749396797382,
+        "stop" : 1749396798110,
+        "duration" : 728
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDNkOWVkMjgwMDAxYjYxMmMyMyIsImlhdCI6MTc0OTM5Njc5NywiZXhwIjoxNzQ5Mzk3OTk3fQ.qbRU_gPRujw4Ys3mPd3HYrGS1ZZu5xdAKkDZj4ge0v8"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createNewUser"
+  }, {
+    "name" : "suite",
+    "value" : "CreateUserTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Olga-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "74608@MacBook-Air-Olga-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70345af78de0f238.json",
+  "parameterValues" : [ ]
+}

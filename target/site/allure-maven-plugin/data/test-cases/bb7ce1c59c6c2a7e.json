@@ -1,0 +1,120 @@
+{
+  "uid" : "bb7ce1c59c6c2a7e",
+  "name" : "Создание заказа без авторизации",
+  "fullName" : "CreateOrdersTest.createOrderWithoutAutorization",
+  "historyId" : "65b8de1b0230dd91997a127d84beb34",
+  "time" : {
+    "start" : 1749396799472,
+    "stop" : 1749396800551,
+    "duration" : 1079
+  },
+  "description" : "Создаем заказ без авторизации ",
+  "descriptionHtml" : "<p>Создаем заказ без авторизации</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Создаем заказ без авторизации ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Добавить пользователя и вернуть accessToken",
+      "time" : {
+        "start" : 1749396799472,
+        "stop" : 1749396799747,
+        "duration" : 275
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "CreateUser@7c2b2b56"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Создать заказ без авторизации",
+      "time" : {
+        "start" : 1749396799747,
+        "stop" : 1749396799884,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Удалить пользователя по accessToken",
+      "time" : {
+        "start" : 1749396799884,
+        "stop" : 1749396800549,
+        "duration" : 665
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDNmOWVkMjgwMDAxYjYxMmMyNyIsImlhdCI6MTc0OTM5Njc5OSwiZXhwIjoxNzQ5Mzk3OTk5fQ.L0FHZmCBvsNetpJcc5UfC5alAXlVjkr2URTXyRVdlLk"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateOrdersTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithoutAutorization"
+  }, {
+    "name" : "suite",
+    "value" : "CreateOrdersTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Olga-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "74608@MacBook-Air-Olga-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb7ce1c59c6c2a7e.json",
+  "parameterValues" : [ ]
+}

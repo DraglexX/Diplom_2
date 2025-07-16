@@ -1,0 +1,102 @@
+{
+  "uid" : "9a5f240d8e138f6a",
+  "name" : "Создание пользователя без заполнения поля пароль",
+  "fullName" : "CreateUsersTest.createUserWithoutPasswordTest",
+  "historyId" : "46d64f0eccf7c0e4fd641e4bb1edd55e",
+  "time" : {
+    "start" : 1749396785410,
+    "stop" : 1749396785853,
+    "duration" : 443
+  },
+  "description" : "Здесь мы создаем пользователя без обязательного поля пароль",
+  "descriptionHtml" : "<p>Здесь мы создаем пользователя без обязательного поля пароль</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Здесь мы создаем пользователя без обязательного поля пароль",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Добавить пользователя и вернуть accessToken",
+      "time" : {
+        "start" : 1749396785410,
+        "stop" : 1749396785701,
+        "duration" : 291
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "CreateUser@308bd473"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Создать пользователя без обязательного поля пароль",
+      "time" : {
+        "start" : 1749396785701,
+        "stop" : 1749396785853,
+        "duration" : 152
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateUsersTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createUserWithoutPasswordTest"
+  }, {
+    "name" : "suite",
+    "value" : "CreateUsersTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Olga-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "74608@MacBook-Air-Olga-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a5f240d8e138f6a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,123 @@
+{
+  "uid" : "dd901b472f0b8398",
+  "name" : "Авторизация с некорректным паролем",
+  "fullName" : "LoginUserTest.withIncorrectPassword",
+  "historyId" : "522e622f0a06409993a9ac51a2b88d75",
+  "time" : {
+    "start" : 1749396777582,
+    "stop" : 1749396778869,
+    "duration" : 1287
+  },
+  "description" : "Проверка, что система возвращает ошибку при попытке авторизации с некорректным полем password.",
+  "descriptionHtml" : "<p>Проверка, что система возвращает ошибку при попытке авторизации с некорректным полем password.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка, что система возвращает ошибку при попытке авторизации с некорректным полем password.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1749396777582,
+        "stop" : 1749396777858,
+        "duration" : 276
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=1749396777582elisabeth.wuckert@gmail.com, password=oiDFQQgDmFYdT&W1749396777582, name=Elba1749396777582)"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизация пользователя",
+      "time" : {
+        "start" : 1749396777859,
+        "stop" : 1749396778113,
+        "duration" : 254
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "credentials",
+        "value" : "Credentials(email=1749396777582elisabeth.wuckert@gmail.com, password=oiDFQQgDmFYdT&W, name=Elba1749396777582)"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1749396778140,
+        "stop" : 1749396778814,
+        "duration" : 674
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDI5OWVkMjgwMDAxYjYxMmMwMyIsImlhdCI6MTc0OTM5Njc3NywiZXhwIjoxNzQ5Mzk3OTc3fQ.v5vmptSRJ2Xq20zfTTG1dCO6f3JEcnX6Ys7RNERsfLI"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "LoginUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "withIncorrectPassword"
+  }, {
+    "name" : "suite",
+    "value" : "LoginUserTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Olga-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "74608@MacBook-Air-Olga-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dd901b472f0b8398.json",
+  "parameterValues" : [ ]
+}

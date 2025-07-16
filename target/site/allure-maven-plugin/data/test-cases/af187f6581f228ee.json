@@ -1,0 +1,141 @@
+{
+  "uid" : "af187f6581f228ee",
+  "name" : "Создание заказа с одним ингредиентом",
+  "fullName" : "CreateOrderTest.oneIngredient",
+  "historyId" : "48e6026b79bb67de3a2181a66a7c9791",
+  "time" : {
+    "start" : 1749396791510,
+    "stop" : 1749396795473,
+    "duration" : 3963
+  },
+  "description" : "Проверка успешного создания заказа с одним ингредиентом и авторизованным пользователем.",
+  "descriptionHtml" : "<p>Проверка успешного создания заказа с одним ингредиентом и авторизованным пользователем.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка успешного создания заказа с одним ингредиентом и авторизованным пользователем.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1749396791510,
+        "stop" : 1749396791778,
+        "duration" : 268
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=1749396791510elisabeth.wuckert@gmail.com, password=oiDFQQgDmFYdT&W1749396791510, name=Elba1749396791510)"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение списка ингредиентов",
+      "time" : {
+        "start" : 1749396791781,
+        "stop" : 1749396791935,
+        "duration" : 154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Создание заказа с авторизацией",
+      "time" : {
+        "start" : 1749396791936,
+        "stop" : 1749396794787,
+        "duration" : 2851
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ingredients",
+        "value" : "Ingredients(ingredients=[61c0c5a71d1f82001bdaaa74])"
+      }, {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDM3OWVkMjgwMDAxYjYxMmMxYyIsImlhdCI6MTc0OTM5Njc5MSwiZXhwIjoxNzQ5Mzk3OTkxfQ.N39-uOBgw1THopM6nTXzBr4KkF9ot7CzlPWB3sjtvtc"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1749396794813,
+        "stop" : 1749396795447,
+        "duration" : 634
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDM3OWVkMjgwMDAxYjYxMmMxYyIsImlhdCI6MTc0OTM5Njc5MSwiZXhwIjoxNzQ5Mzk3OTkxfQ.N39-uOBgw1THopM6nTXzBr4KkF9ot7CzlPWB3sjtvtc"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateOrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "oneIngredient"
+  }, {
+    "name" : "suite",
+    "value" : "CreateOrderTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Olga-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "74608@MacBook-Air-Olga-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af187f6581f228ee.json",
+  "parameterValues" : [ ]
+}

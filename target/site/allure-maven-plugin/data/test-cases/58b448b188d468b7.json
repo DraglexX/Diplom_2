@@ -1,0 +1,120 @@
+{
+  "uid" : "58b448b188d468b7",
+  "name" : "Создание пользователя который уже зарегистрирован",
+  "fullName" : "CreateUsersTest.createUserRegisteredTest",
+  "historyId" : "272ccc0241f60ea9290eca59602047c5",
+  "time" : {
+    "start" : 1749396782857,
+    "stop" : 1749396784816,
+    "duration" : 1959
+  },
+  "description" : "Здесь мы сначала создаем обычного пользователя а потом пытаемся создать его повторно",
+  "descriptionHtml" : "<p>Здесь мы сначала создаем обычного пользователя а потом пытаемся создать его повторно</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Здесь мы сначала создаем обычного пользователя а потом пытаемся создать его повторно",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Добавить пользователя и вернуть accessToken",
+      "time" : {
+        "start" : 1749396783603,
+        "stop" : 1749396783990,
+        "duration" : 387
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "CreateUser@550482aa"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Создать пользователя, который уже зарегистрирован",
+      "time" : {
+        "start" : 1749396783990,
+        "stop" : 1749396784134,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Удалить пользователя по accessToken",
+      "time" : {
+        "start" : 1749396784134,
+        "stop" : 1749396784815,
+        "duration" : 681
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDJmOWVkMjgwMDAxYjYxMmMwZSIsImlhdCI6MTc0OTM5Njc4MywiZXhwIjoxNzQ5Mzk3OTgzfQ.ceCKrzIPCL0dVUJAYF1483kUAyOqFUI9k5bRGrnW8fs"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateUsersTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createUserRegisteredTest"
+  }, {
+    "name" : "suite",
+    "value" : "CreateUsersTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Olga-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "74608@MacBook-Air-Olga-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "58b448b188d468b7.json",
+  "parameterValues" : [ ]
+}

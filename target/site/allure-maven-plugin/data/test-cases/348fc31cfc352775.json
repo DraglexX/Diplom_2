@@ -1,0 +1,135 @@
+{
+  "uid" : "348fc31cfc352775",
+  "name" : "Получить список заказов конкретного пользователя который не авторизован",
+  "fullName" : "CreateOrdersTest.getOrderUserNoAuthorize",
+  "historyId" : "585483fc4b718e15dfe9fdef49ffd193",
+  "time" : {
+    "start" : 1749396800556,
+    "stop" : 1749396805128,
+    "duration" : 4572
+  },
+  "description" : "Получаем список заказов конкретного пользователя который не авторизован",
+  "descriptionHtml" : "<p>Получаем список заказов конкретного пользователя который не авторизован</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Получаем список заказов конкретного пользователя который не авторизован",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Добавить пользователя и вернуть accessToken",
+      "time" : {
+        "start" : 1749396800556,
+        "stop" : 1749396800841,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "CreateUser@73e3831e"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получить список заказов конкретного пользователя который не авторизован",
+      "time" : {
+        "start" : 1749396800841,
+        "stop" : 1749396804430,
+        "duration" : 3589
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Получить первые два ингредиента по _id",
+        "time" : {
+          "start" : 1749396800841,
+          "stop" : 1749396801031,
+          "duration" : 190
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удалить пользователя по accessToken",
+      "time" : {
+        "start" : 1749396804430,
+        "stop" : 1749396805127,
+        "duration" : 697
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDQwOWVkMjgwMDAxYjYxMmMyOSIsImlhdCI6MTc0OTM5NjgwMCwiZXhwIjoxNzQ5Mzk4MDAwfQ.1vugiUfGJpf6n5uiVkiKfeYANzQ7jaX7cohcARKbqTA"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateOrdersTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getOrderUserNoAuthorize"
+  }, {
+    "name" : "suite",
+    "value" : "CreateOrdersTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Olga-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "74608@MacBook-Air-Olga-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "348fc31cfc352775.json",
+  "parameterValues" : [ ]
+}

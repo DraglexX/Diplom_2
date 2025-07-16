@@ -1,0 +1,120 @@
+{
+  "uid" : "ff9a33b83553a76f",
+  "name" : "Создание заказа c неверным хешем ингредиентов",
+  "fullName" : "CreateOrdersTest.createOrderWithWrongHashIngredients",
+  "historyId" : "b577a8d3943ec0625ac0425e9a354ee2",
+  "time" : {
+    "start" : 1749396806487,
+    "stop" : 1749396807602,
+    "duration" : 1115
+  },
+  "description" : "Создаем заказ с неверным хешем ингредиентов",
+  "descriptionHtml" : "<p>Создаем заказ с неверным хешем ингредиентов</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Создаем заказ с неверным хешем ингредиентов",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Добавить пользователя и вернуть accessToken",
+      "time" : {
+        "start" : 1749396806487,
+        "stop" : 1749396806774,
+        "duration" : 287
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "CreateUser@5879197b"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Создать заказ с неверным хешем ингредиентов",
+      "time" : {
+        "start" : 1749396806774,
+        "stop" : 1749396806927,
+        "duration" : 153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Удалить пользователя по accessToken",
+      "time" : {
+        "start" : 1749396806928,
+        "stop" : 1749396807602,
+        "duration" : 674
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDQ2OWVkMjgwMDAxYjYxMmMyZiIsImlhdCI6MTc0OTM5NjgwNiwiZXhwIjoxNzQ5Mzk4MDA2fQ.68fEOKC0lQCD4tRyiP2RJtjPnhEPpndnGfvBAJyvjyM"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateOrdersTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithWrongHashIngredients"
+  }, {
+    "name" : "suite",
+    "value" : "CreateOrdersTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Olga-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "74608@MacBook-Air-Olga-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff9a33b83553a76f.json",
+  "parameterValues" : [ ]
+}

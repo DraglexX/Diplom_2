@@ -1,0 +1,123 @@
+{
+  "uid" : "e224e7250250412c",
+  "name" : "Авторизация без указания имени",
+  "fullName" : "LoginUserTest.withoutName",
+  "historyId" : "44038c122394ac3777f8bc9ef90b576d",
+  "time" : {
+    "start" : 1749396773647,
+    "stop" : 1749396775037,
+    "duration" : 1390
+  },
+  "description" : "Проверка, что авторизация проходит успешно, даже если поле name не указано (оно не является обязательным для авторизации).",
+  "descriptionHtml" : "<p>Проверка, что авторизация проходит успешно, даже если поле name не указано (оно не является обязательным для авторизации).</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка, что авторизация проходит успешно, даже если поле name не указано (оно не является обязательным для авторизации).",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1749396773648,
+        "stop" : 1749396773941,
+        "duration" : 293
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=1749396773647elisabeth.wuckert@gmail.com, password=oiDFQQgDmFYdT&W1749396773647, name=Elba1749396773647)"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизация пользователя",
+      "time" : {
+        "start" : 1749396773950,
+        "stop" : 1749396774254,
+        "duration" : 304
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "credentials",
+        "value" : "Credentials(email=1749396773647elisabeth.wuckert@gmail.com, password=oiDFQQgDmFYdT&W1749396773647, name=)"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1749396774299,
+        "stop" : 1749396774979,
+        "duration" : 680
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDI2OWVkMjgwMDAxYjYxMmJmYSIsImlhdCI6MTc0OTM5Njc3NCwiZXhwIjoxNzQ5Mzk3OTc0fQ.6VMwFyLG6PcefVVyLfVAz5WAWhj4EgKQJNqepBshByU"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "LoginUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "withoutName"
+  }, {
+    "name" : "suite",
+    "value" : "LoginUserTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Olga-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "74608@MacBook-Air-Olga-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e224e7250250412c.json",
+  "parameterValues" : [ ]
+}
