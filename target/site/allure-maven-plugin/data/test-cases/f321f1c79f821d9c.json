@@ -1,0 +1,141 @@
+{
+  "uid" : "f321f1c79f821d9c",
+  "name" : "Создание заказа с некорректным хэшем ингредиентов",
+  "fullName" : "CreateOrderTest.incorrectHashIngredients",
+  "historyId" : "e7434fd02a4c403c8f553cb24591935",
+  "time" : {
+    "start" : 1749396795477,
+    "stop" : 1749396796730,
+    "duration" : 1253
+  },
+  "description" : "Проверка, что система возвращает ошибку при попытке создания заказа с некорректным хэшем ингредиентов.",
+  "descriptionHtml" : "<p>Проверка, что система возвращает ошибку при попытке создания заказа с некорректным хэшем ингредиентов.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка, что система возвращает ошибку при попытке создания заказа с некорректным хэшем ингредиентов.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1749396795477,
+        "stop" : 1749396795733,
+        "duration" : 256
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=1749396795477elisabeth.wuckert@gmail.com, password=oiDFQQgDmFYdT&W1749396795477, name=Elba1749396795477)"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение списка ингредиентов",
+      "time" : {
+        "start" : 1749396795735,
+        "stop" : 1749396795888,
+        "duration" : 153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Создание заказа с авторизацией",
+      "time" : {
+        "start" : 1749396795896,
+        "stop" : 1749396796043,
+        "duration" : 147
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ingredients",
+        "value" : "Ingredients(ingredients=[8dcf7c2c1eacf9446e49])"
+      }, {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDNiOWVkMjgwMDAxYjYxMmMyMCIsImlhdCI6MTc0OTM5Njc5NSwiZXhwIjoxNzQ5Mzk3OTk1fQ.V_DgjxcrJ6kpJqr5lluDKZcXF_5FAKBSjFrqYRcJJKA"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1749396796044,
+        "stop" : 1749396796705,
+        "duration" : 661
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDNiOWVkMjgwMDAxYjYxMmMyMCIsImlhdCI6MTc0OTM5Njc5NSwiZXhwIjoxNzQ5Mzk3OTk1fQ.V_DgjxcrJ6kpJqr5lluDKZcXF_5FAKBSjFrqYRcJJKA"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateOrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "incorrectHashIngredients"
+  }, {
+    "name" : "suite",
+    "value" : "CreateOrderTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Olga-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "74608@MacBook-Air-Olga-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f321f1c79f821d9c.json",
+  "parameterValues" : [ ]
+}

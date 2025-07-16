@@ -1,0 +1,162 @@
+{
+  "uid" : "bf607d69c64382f9",
+  "name" : "Попытка изменения логина на уже существующий",
+  "fullName" : "ChangeDataUserTest.authorizationAndRepeatEmail",
+  "historyId" : "db7e74d253bf19dba829a7e751905500",
+  "time" : {
+    "start" : 1749396818298,
+    "stop" : 1749396820738,
+    "duration" : 2440
+  },
+  "description" : "Проверка, что система возвращает ошибку при попытке изменения поля email на уже существующий в системе.",
+  "descriptionHtml" : "<p>Проверка, что система возвращает ошибку при попытке изменения поля email на уже существующий в системе.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка, что система возвращает ошибку при попытке изменения поля email на уже существующий в системе.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1749396818301,
+        "stop" : 1749396818591,
+        "duration" : 290
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=1749396818299elisabeth.wuckert@gmail.com, password=oiDFQQgDmFYdT&W1749396818299, name=Elba1749396818299)"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1749396818593,
+        "stop" : 1749396818845,
+        "duration" : 252
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=1749396818592elisabeth.wuckert@gmail.com, password=oiDFQQgDmFYdT&W1749396818592, name=Elba1749396818592)"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Изменение данных пользователя с авторизацией",
+      "time" : {
+        "start" : 1749396818846,
+        "stop" : 1749396819175,
+        "duration" : 329
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "credentials",
+        "value" : "Credentials(email=1749396818299elisabeth.wuckert@gmail.com, password=oiDFQQgDmFYdT&W1749396818592, name=Elba1749396818592)"
+      }, {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDUyOWVkMjgwMDAxYjYxMmMzZCIsImlhdCI6MTc0OTM5NjgxOCwiZXhwIjoxNzQ5Mzk4MDE4fQ.FGYfTK-gizwqAMXdkUGfwQqW2n-zJF08BDdLajATJaA"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1749396819278,
+        "stop" : 1749396819971,
+        "duration" : 693
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDUyOWVkMjgwMDAxYjYxMmMzZCIsImlhdCI6MTc0OTM5NjgxOCwiZXhwIjoxNzQ5Mzk4MDE4fQ.FGYfTK-gizwqAMXdkUGfwQqW2n-zJF08BDdLajATJaA"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1749396820004,
+        "stop" : 1749396820697,
+        "duration" : 693
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDUyOWVkMjgwMDAxYjYxMmMzYiIsImlhdCI6MTc0OTM5NjgxOCwiZXhwIjoxNzQ5Mzk4MDE4fQ.Cnr4-T83Okn6_ksZxqicT_SI8JyLJP64riS_tBNECtE"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "ChangeDataUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "authorizationAndRepeatEmail"
+  }, {
+    "name" : "suite",
+    "value" : "ChangeDataUserTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Olga-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "74608@MacBook-Air-Olga-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf607d69c64382f9.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,371 @@
+[ {
+  "uid" : "7a18b372c9dd006e",
+  "name" : "Создание заказа с несколькими ингредиентами",
+  "time" : {
+    "start" : 1749396787268,
+    "stop" : 1749396791505,
+    "duration" : 4237
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3713798a183bc2d6",
+  "name" : "Создание заказа с авторизацией",
+  "time" : {
+    "start" : 1749396805138,
+    "stop" : 1749396806484,
+    "duration" : 1346
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af187f6581f228ee",
+  "name" : "Создание заказа с одним ингредиентом",
+  "time" : {
+    "start" : 1749396791510,
+    "stop" : 1749396795473,
+    "duration" : 3963
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff9a33b83553a76f",
+  "name" : "Создание заказа c неверным хешем ингредиентов",
+  "time" : {
+    "start" : 1749396806487,
+    "stop" : 1749396807602,
+    "duration" : 1115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a877e5abe61e960",
+  "name" : "Создание заказа с несколькими ингредиентами без авторизации",
+  "time" : {
+    "start" : 1749396771949,
+    "stop" : 1749396772309,
+    "duration" : 360
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db4a9716115c653b",
+  "name" : "Создание заказа с некорректным хэшем ингредиентов без авторизации",
+  "time" : {
+    "start" : 1749396772818,
+    "stop" : 1749396773635,
+    "duration" : 817
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e9c935f2f2bc94c",
+  "name" : "Создание уникального пользователя",
+  "time" : {
+    "start" : 1749396784822,
+    "stop" : 1749396785404,
+    "duration" : 582
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "878e961b6743afd2",
+  "name" : "Создание пользователя без указания имени",
+  "time" : {
+    "start" : 1749396796740,
+    "stop" : 1749396796927,
+    "duration" : 187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e460c8be0af0bfc",
+  "name" : "Создание пользователя без указания пароля",
+  "time" : {
+    "start" : 1749396798150,
+    "stop" : 1749396798335,
+    "duration" : 185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "226a3197bed90a4f",
+  "name" : "Создание пользователя с уже существующим логином",
+  "time" : {
+    "start" : 1749396798338,
+    "stop" : 1749396799464,
+    "duration" : 1126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a5f240d8e138f6a",
+  "name" : "Создание пользователя без заполнения поля пароль",
+  "time" : {
+    "start" : 1749396785410,
+    "stop" : 1749396785853,
+    "duration" : 443
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc5b8d6268d69220",
+  "name" : "Получение заказов авторизованного пользователя",
+  "time" : {
+    "start" : 1749396756146,
+    "stop" : 1749396767051,
+    "duration" : 10905
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73ed931c4f68b08b",
+  "name" : "Изменение имени авторизованного пользователя",
+  "time" : {
+    "start" : 1749396823129,
+    "stop" : 1749396824354,
+    "duration" : 1225
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd901b472f0b8398",
+  "name" : "Авторизация с некорректным паролем",
+  "time" : {
+    "start" : 1749396777582,
+    "stop" : 1749396778869,
+    "duration" : 1287
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb7ce1c59c6c2a7e",
+  "name" : "Создание заказа без авторизации",
+  "time" : {
+    "start" : 1749396799472,
+    "stop" : 1749396800551,
+    "duration" : 1079
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b21f5988922a2e80",
+  "name" : "Создание пользователя без указания логина",
+  "time" : {
+    "start" : 1749396796929,
+    "stop" : 1749396797088,
+    "duration" : 159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e224e7250250412c",
+  "name" : "Авторизация без указания имени",
+  "time" : {
+    "start" : 1749396773647,
+    "stop" : 1749396775037,
+    "duration" : 1390
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70345af78de0f238",
+  "name" : "Создание нового пользователя с валидными данными",
+  "time" : {
+    "start" : 1749396797089,
+    "stop" : 1749396798147,
+    "duration" : 1058
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ec9994391d07813",
+  "name" : "Создание заказа без ингредиентов",
+  "time" : {
+    "start" : 1749396785860,
+    "stop" : 1749396787263,
+    "duration" : 1403
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad226fcef825fadc",
+  "name" : "Создание заказа без ингредиентов",
+  "time" : {
+    "start" : 1749396816690,
+    "stop" : 1749396818270,
+    "duration" : 1580
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38bdfdf3802875ac",
+  "name" : "Создание заказа c ингредиентами",
+  "time" : {
+    "start" : 1749396812357,
+    "stop" : 1749396816673,
+    "duration" : 4316
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "348fc31cfc352775",
+  "name" : "Получить список заказов конкретного пользователя который не авторизован",
+  "time" : {
+    "start" : 1749396800556,
+    "stop" : 1749396805128,
+    "duration" : 4572
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30571a61059851df",
+  "name" : "Изменение имени без авторизации",
+  "time" : {
+    "start" : 1749396820745,
+    "stop" : 1749396821894,
+    "duration" : 1149
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a9a23c52a4a0441",
+  "name" : "Авторизация без указания пароля",
+  "time" : {
+    "start" : 1749396781525,
+    "stop" : 1749396782847,
+    "duration" : 1322
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d68d10d35f4eddb",
+  "name" : "Создание заказа без ингредиентов без авторизации",
+  "time" : {
+    "start" : 1749396771535,
+    "stop" : 1749396771946,
+    "duration" : 411
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37983bc52c9f25d3",
+  "name" : "Авторизация с некорректным логином",
+  "time" : {
+    "start" : 1749396776353,
+    "stop" : 1749396777576,
+    "duration" : 1223
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4819f613f033472a",
+  "name" : "Создание заказа с одним ингредиентом без авторизации",
+  "time" : {
+    "start" : 1749396772315,
+    "stop" : 1749396772803,
+    "duration" : 488
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d30c0d2196461b7",
+  "name" : "Авторизация с некорректным именем",
+  "time" : {
+    "start" : 1749396780135,
+    "stop" : 1749396781513,
+    "duration" : 1378
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58b448b188d468b7",
+  "name" : "Создание пользователя который уже зарегистрирован",
+  "time" : {
+    "start" : 1749396782857,
+    "stop" : 1749396784816,
+    "duration" : 1959
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf607d69c64382f9",
+  "name" : "Попытка изменения логина на уже существующий",
+  "time" : {
+    "start" : 1749396818298,
+    "stop" : 1749396820738,
+    "duration" : 2440
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb5fd0dc57a55fed",
+  "name" : "Авторизация без указания логина",
+  "time" : {
+    "start" : 1749396775041,
+    "stop" : 1749396776348,
+    "duration" : 1307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "596ebf0e66e7e45c",
+  "name" : "Получить список заказов конкретного пользователя который авторизован",
+  "time" : {
+    "start" : 1749396807615,
+    "stop" : 1749396812349,
+    "duration" : 4734
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b448222f67d762a9",
+  "name" : "Успешная авторизация пользователя",
+  "time" : {
+    "start" : 1749396778871,
+    "stop" : 1749396780132,
+    "duration" : 1261
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "549a9e6aa3160ca3",
+  "name" : "Получение заказов без авторизации конкректного пользователя",
+  "time" : {
+    "start" : 1749396767157,
+    "stop" : 1749396771525,
+    "duration" : 4368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3748415bf4c86a1",
+  "name" : "Изменение логина авторизованного пользователя",
+  "time" : {
+    "start" : 1749396821898,
+    "stop" : 1749396823126,
+    "duration" : 1228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f321f1c79f821d9c",
+  "name" : "Создание заказа с некорректным хэшем ингредиентов",
+  "time" : {
+    "start" : 1749396795477,
+    "stop" : 1749396796730,
+    "duration" : 1253
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d3e00c550f920c9",
+  "name" : "Изменение логина без авторизации",
+  "time" : {
+    "start" : 1749396824357,
+    "stop" : 1749396825456,
+    "duration" : 1099
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

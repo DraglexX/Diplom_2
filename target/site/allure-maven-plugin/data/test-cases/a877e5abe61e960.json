@@ -1,0 +1,102 @@
+{
+  "uid" : "a877e5abe61e960",
+  "name" : "Создание заказа с несколькими ингредиентами без авторизации",
+  "fullName" : "CreateOrderWithoutAuthorizationTest.multiIngredients",
+  "historyId" : "361b5515e722bc5b921c17595cd32bac",
+  "time" : {
+    "start" : 1749396771949,
+    "stop" : 1749396772309,
+    "duration" : 360
+  },
+  "description" : "Проверка, что система возвращает ошибку при попытке создания заказа с несколькими ингредиентами без авторизации.",
+  "descriptionHtml" : "<p>Проверка, что система возвращает ошибку при попытке создания заказа с несколькими ингредиентами без авторизации.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка, что система возвращает ошибку при попытке создания заказа с несколькими ингредиентами без авторизации.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получение списка ингредиентов",
+      "time" : {
+        "start" : 1749396771950,
+        "stop" : 1749396772131,
+        "duration" : 181
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Создание заказа без авторизации",
+      "time" : {
+        "start" : 1749396772136,
+        "stop" : 1749396772306,
+        "duration" : 170
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ingredients",
+        "value" : "Ingredients(ingredients=[61c0c5a71d1f82001bdaaa78, 61c0c5a71d1f82001bdaaa6c, 61c0c5a71d1f82001bdaaa6e, 61c0c5a71d1f82001bdaaa6e, 61c0c5a71d1f82001bdaaa76, 61c0c5a71d1f82001bdaaa6c, 61c0c5a71d1f82001bdaaa72])"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateOrderWithoutAuthorizationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "multiIngredients"
+  }, {
+    "name" : "suite",
+    "value" : "CreateOrderWithoutAuthorizationTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Olga-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "74608@MacBook-Air-Olga-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a877e5abe61e960.json",
+  "parameterValues" : [ ]
+}

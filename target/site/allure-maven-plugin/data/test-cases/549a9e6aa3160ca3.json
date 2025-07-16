@@ -1,0 +1,156 @@
+{
+  "uid" : "549a9e6aa3160ca3",
+  "name" : "Получение заказов без авторизации конкректного пользователя",
+  "fullName" : "ReceivingOrdersTest.receivingOrdersWithAuthorization",
+  "historyId" : "7f321f90464ff2b792f41b18748a996e",
+  "time" : {
+    "start" : 1749396767157,
+    "stop" : 1749396771525,
+    "duration" : 4368
+  },
+  "description" : "Проверка, что система возвращает ошибку при попытке получения списка заказов без авторизации конкретного пользователя.",
+  "descriptionHtml" : "<p>Проверка, что система возвращает ошибку при попытке получения списка заказов без авторизации конкретного пользователя.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка, что система возвращает ошибку при попытке получения списка заказов без авторизации конкретного пользователя.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1749396767158,
+        "stop" : 1749396767448,
+        "duration" : 290
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=1749396767157elisabeth.wuckert@gmail.com, password=oiDFQQgDmFYdT&W1749396767158, name=Elba1749396767158)"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение списка ингредиентов",
+      "time" : {
+        "start" : 1749396767451,
+        "stop" : 1749396767649,
+        "duration" : 198
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Создание заказа с авторизацией",
+      "time" : {
+        "start" : 1749396767657,
+        "stop" : 1749396770525,
+        "duration" : 2868
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ingredients",
+        "value" : "Ingredients(ingredients=[61c0c5a71d1f82001bdaaa76, 61c0c5a71d1f82001bdaaa78, 61c0c5a71d1f82001bdaaa7a, 61c0c5a71d1f82001bdaaa7a, 61c0c5a71d1f82001bdaaa6d])"
+      }, {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDFmOWVkMjgwMDAxYjYxMmJmNyIsImlhdCI6MTc0OTM5Njc2NywiZXhwIjoxNzQ5Mzk3OTY3fQ.-zde932eD3GsY4nj0JIpoBjeVUVxWeg7AzSMt97Jw-I"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение заказа определенного пользователя без авторизации в системе",
+      "time" : {
+        "start" : 1749396770527,
+        "stop" : 1749396770702,
+        "duration" : 175
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1749396770761,
+        "stop" : 1749396771470,
+        "duration" : 709
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDFmOWVkMjgwMDAxYjYxMmJmNyIsImlhdCI6MTc0OTM5Njc2NywiZXhwIjoxNzQ5Mzk3OTY3fQ.-zde932eD3GsY4nj0JIpoBjeVUVxWeg7AzSMt97Jw-I"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "ReceivingOrdersTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "receivingOrdersWithAuthorization"
+  }, {
+    "name" : "suite",
+    "value" : "ReceivingOrdersTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Olga-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "74608@MacBook-Air-Olga-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "549a9e6aa3160ca3.json",
+  "parameterValues" : [ ]
+}

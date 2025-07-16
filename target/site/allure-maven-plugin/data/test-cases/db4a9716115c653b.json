@@ -1,0 +1,102 @@
+{
+  "uid" : "db4a9716115c653b",
+  "name" : "Создание заказа с некорректным хэшем ингредиентов без авторизации",
+  "fullName" : "CreateOrderWithoutAuthorizationTest.incorrectHashIngredients",
+  "historyId" : "29e978ac323942eb181ef5d698fafeb3",
+  "time" : {
+    "start" : 1749396772818,
+    "stop" : 1749396773635,
+    "duration" : 817
+  },
+  "description" : "Проверка, что система возвращает ошибку при попытке создания заказа с некорректным хэшем ингредиентов без авторизации.",
+  "descriptionHtml" : "<p>Проверка, что система возвращает ошибку при попытке создания заказа с некорректным хэшем ингредиентов без авторизации.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка, что система возвращает ошибку при попытке создания заказа с некорректным хэшем ингредиентов без авторизации.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получение списка ингредиентов",
+      "time" : {
+        "start" : 1749396772820,
+        "stop" : 1749396773039,
+        "duration" : 219
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Создание заказа без авторизации",
+      "time" : {
+        "start" : 1749396773044,
+        "stop" : 1749396773629,
+        "duration" : 585
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ingredients",
+        "value" : "Ingredients(ingredients=[8dcf7c2c1eacf9446e49])"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateOrderWithoutAuthorizationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "incorrectHashIngredients"
+  }, {
+    "name" : "suite",
+    "value" : "CreateOrderWithoutAuthorizationTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Olga-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "74608@MacBook-Air-Olga-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db4a9716115c653b.json",
+  "parameterValues" : [ ]
+}

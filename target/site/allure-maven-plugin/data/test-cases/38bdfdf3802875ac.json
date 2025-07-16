@@ -1,0 +1,135 @@
+{
+  "uid" : "38bdfdf3802875ac",
+  "name" : "Создание заказа c ингредиентами",
+  "fullName" : "CreateOrdersTest.createOrderWithIngredients",
+  "historyId" : "5b61de20c0e00facb2cfd970f2e9a5fd",
+  "time" : {
+    "start" : 1749396812357,
+    "stop" : 1749396816673,
+    "duration" : 4316
+  },
+  "description" : "Создаем заказ с ингредиентами",
+  "descriptionHtml" : "<p>Создаем заказ с ингредиентами</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Создаем заказ с ингредиентами",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Добавить пользователя и вернуть accessToken",
+      "time" : {
+        "start" : 1749396812357,
+        "stop" : 1749396812652,
+        "duration" : 295
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "CreateUser@2939bfa0"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Создать заказ с ингредиентами",
+      "time" : {
+        "start" : 1749396812652,
+        "stop" : 1749396815928,
+        "duration" : 3276
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Получить первые два ингредиента по _id",
+        "time" : {
+          "start" : 1749396812653,
+          "stop" : 1749396812829,
+          "duration" : 176
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удалить пользователя по accessToken",
+      "time" : {
+        "start" : 1749396815928,
+        "stop" : 1749396816671,
+        "duration" : 743
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDRjOWVkMjgwMDAxYjYxMmMzNSIsImlhdCI6MTc0OTM5NjgxMiwiZXhwIjoxNzQ5Mzk4MDEyfQ.AZXHKI2MISHayI5V_k5w6vhR9p2stB3joTK2BXHVyqw"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "CreateOrdersTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithIngredients"
+  }, {
+    "name" : "suite",
+    "value" : "CreateOrdersTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Olga-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "74608@MacBook-Air-Olga-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "38bdfdf3802875ac.json",
+  "parameterValues" : [ ]
+}

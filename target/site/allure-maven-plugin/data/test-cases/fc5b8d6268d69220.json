@@ -1,0 +1,159 @@
+{
+  "uid" : "fc5b8d6268d69220",
+  "name" : "Получение заказов авторизованного пользователя",
+  "fullName" : "ReceivingOrdersTest.receivingOrdersGivenUser",
+  "historyId" : "160ebf9baa1377b7ffa25fa965c02993",
+  "time" : {
+    "start" : 1749396756146,
+    "stop" : 1749396767051,
+    "duration" : 10905
+  },
+  "description" : "Проверка успешного получения списка заказов для авторизованного пользователя.",
+  "descriptionHtml" : "<p>Проверка успешного получения списка заказов для авторизованного пользователя.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка успешного получения списка заказов для авторизованного пользователя.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1749396756717,
+        "stop" : 1749396761089,
+        "duration" : 4372
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=1749396756167elisabeth.wuckert@gmail.com, password=oiDFQQgDmFYdT&W1749396756661, name=Elba1749396756664)"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение списка ингредиентов",
+      "time" : {
+        "start" : 1749396761138,
+        "stop" : 1749396761460,
+        "duration" : 322
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Создание заказа с авторизацией",
+      "time" : {
+        "start" : 1749396761511,
+        "stop" : 1749396764480,
+        "duration" : 2969
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ingredients",
+        "value" : "Ingredients(ingredients=[61c0c5a71d1f82001bdaaa6e, 61c0c5a71d1f82001bdaaa7a, 61c0c5a71d1f82001bdaaa77, 61c0c5a71d1f82001bdaaa6c, 61c0c5a71d1f82001bdaaa70])"
+      }, {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDE4OWVkMjgwMDAxYjYxMmJmNCIsImlhdCI6MTc0OTM5Njc2MCwiZXhwIjoxNzQ5Mzk3OTYwfQ.YrgZZQOuGOZyMN7mrobZo3R3DVo1JL1nwWpqKAXWhQY"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получение заказа определенного пользователя с авторизацией в системе",
+      "time" : {
+        "start" : 1749396764482,
+        "stop" : 1749396765144,
+        "duration" : 662
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDE4OWVkMjgwMDAxYjYxMmJmNCIsImlhdCI6MTc0OTM5Njc2MCwiZXhwIjoxNzQ5Mzk3OTYwfQ.YrgZZQOuGOZyMN7mrobZo3R3DVo1JL1nwWpqKAXWhQY"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1749396766246,
+        "stop" : 1749396766986,
+        "duration" : 740
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDE4OWVkMjgwMDAxYjYxMmJmNCIsImlhdCI6MTc0OTM5Njc2MCwiZXhwIjoxNzQ5Mzk3OTYwfQ.YrgZZQOuGOZyMN7mrobZo3R3DVo1JL1nwWpqKAXWhQY"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "ReceivingOrdersTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "receivingOrdersGivenUser"
+  }, {
+    "name" : "suite",
+    "value" : "ReceivingOrdersTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Olga-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "74608@MacBook-Air-Olga-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc5b8d6268d69220.json",
+  "parameterValues" : [ ]
+}

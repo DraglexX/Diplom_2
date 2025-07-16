@@ -1,0 +1,126 @@
+{
+  "uid" : "b3748415bf4c86a1",
+  "name" : "Изменение логина авторизованного пользователя",
+  "fullName" : "ChangeDataUserTest.authorizationAndChangeEmail",
+  "historyId" : "a52a3a56eb2395b350ab208547df23ef",
+  "time" : {
+    "start" : 1749396821898,
+    "stop" : 1749396823126,
+    "duration" : 1228
+  },
+  "description" : "Проверка успешного изменения поля email авторизованного пользователя.",
+  "descriptionHtml" : "<p>Проверка успешного изменения поля email авторизованного пользователя.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка успешного изменения поля email авторизованного пользователя.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1749396821899,
+        "stop" : 1749396822158,
+        "duration" : 259
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=1749396821899elisabeth.wuckert@gmail.com, password=oiDFQQgDmFYdT&W1749396821899, name=Elba1749396821899)"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Изменение данных пользователя с авторизацией",
+      "time" : {
+        "start" : 1749396822159,
+        "stop" : 1749396822410,
+        "duration" : 251
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "credentials",
+        "value" : "Credentials(email=elisabeth.wuckert@gmail.com, password=oiDFQQgDmFYdT&W1749396821899, name=Elba1749396821899)"
+      }, {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDU2OWVkMjgwMDAxYjYxMmM0MSIsImlhdCI6MTc0OTM5NjgyMiwiZXhwIjoxNzQ5Mzk4MDIyfQ.T7Bmzkbhza2ZPPc8NarFuDLVo69w0sX0m7DGWDsUX9U"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1749396822434,
+        "stop" : 1749396823098,
+        "duration" : 664
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NDVhZDU2OWVkMjgwMDAxYjYxMmM0MSIsImlhdCI6MTc0OTM5NjgyMiwiZXhwIjoxNzQ5Mzk4MDIyfQ.T7Bmzkbhza2ZPPc8NarFuDLVo69w0sX0m7DGWDsUX9U"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "ChangeDataUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "authorizationAndChangeEmail"
+  }, {
+    "name" : "suite",
+    "value" : "ChangeDataUserTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-Olga-2.local"
+  }, {
+    "name" : "thread",
+    "value" : "74608@MacBook-Air-Olga-2.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b3748415bf4c86a1.json",
+  "parameterValues" : [ ]
+}
